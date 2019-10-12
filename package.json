@@ -1,0 +1,42 @@
+{
+   "name": "capstone-project-book1",
+   "version": "1.0.0",
+   "description": "Capstone project for book1",
+   "main": "index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "ts-node src/index.ts",
+      "type-check": "tsc --noEmit",
+      "build": "tsc",
+      "start-with-node": "node build/index.js"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/piosystems/capstone-project-book1.git"
+   },
+   "keywords": [
+      "Web",
+      "application",
+      "JavaScript",
+      "TypeScript",
+      "Capstone",
+      "Project"
+   ],
+   "author": "Pius Onobhayedo",
+   "license": "MIT",
+   "bugs": {
+      "url": "https://github.com/piosystems/capstone-project-book1/issues"
+   },
+   "homepage": "https://github.com/piosystems/capstone-project-book1#readme",
+   "devDependencies": {
+      "typescript": "3.3.3333",
+      "ts-node": "3.3.0",
+      "@types/node": "^8.0.29"
+   },
+   "dependencies": {
+      "@types/node": "^12.7.12",
+      "pg": "^7.3.0",
+      "reflect-metadata": "^0.1.10",
+      "typeorm": "0.2.19"
+   }
+}
